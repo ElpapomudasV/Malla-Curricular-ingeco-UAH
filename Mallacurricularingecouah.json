@@ -1,0 +1,104 @@
+{
+ "name": "Mallacurricularingecouah",
+ "malla": {
+    "s1": [
+        ["Introducción a la Microeconomía","INTMIC","8","8","PC",[],"I"],
+        ["Matemática I","MAT-I","8","8","PC",[],"A"],
+        ["Introducción a la Adminsitración I","INAD-I","8","8","PC",[],"I"],
+        ["Habilidades de Aprendizaje I","HAB-I","3","3","PC",[],"I"],
+        ["Ética General","ETICG","5","5","PC",[],"I"],
+        ["Habilidades de Aprendizaje II","HAB-II","3","3","PC",[],"I"],
+        ["Inglés I","ING-I","10","10","PC",[],"I"]
+    ],
+    "s2": [
+        ["Introducción a la Macroeconomía","INTMAC","8","8","PC",[],"P"],
+        ["Matemática II","MAT-II","8","8","PC",["MAT-I"],"A"],
+        ["Introducción a la Administración II","INAD-II","8","8","PC",["INAD-I"],"P"],
+        ["Contabilidad I","CON-I","8","8","PC",[],"P"],
+        ["Habilidades de Aprendizaje III","HAB-III","3","3","PC",[],"P"],
+        ["Inglés II","ING-II","1",2,"PC",["ING-I"],"P"]
+    ],
+    "s3": [
+        ["Microeconomía I","MICRO-I","8","8","PC",["MAT-II","INTMIC"],"I"],
+        ["Matemática III","MAT-III","8","8","PC",["MAT-II"],"A"],
+        ["Pensamiento Estratégico","PENEST","8","8","PC",["INAD-II"],"I"],
+        ["Contabilidad II","CON-II","8","8","PC",["CON-I"],"I"],
+        ["Historia Económica y de la Empresa","HISTECYEM","5","5","PC",["INTMAC","INAD-II"],"I"],
+        ["Tecnología de la Información","TEC","3","3","PC",[],"I"],
+        ["Inglés III","ING-III","10","10","PC",["ING-II"],"I"]
+    ],
+    "s4": [
+        ["Macroeconomía I","MACRO-I","8","8","PC",["MAT-II","INTMAC"],"P"],
+        ["Matemática IV","MAT-IV","8","8","PC",["MAT-III"],"P"],
+        ["Personas y Organizaciones","PYO","8","8","PC",["PENEST"],"P"],
+        ["Estadística I","EST-I","8","8","PC",["MAT-II","TEC"],"P"],
+        ["Marketing I","MARK-I","8","8","PC",["PENEST"],"P"],
+        ["Práctica Básica","PB","13","13","PB",["INTMIC","PENEST"],""]
+    ],
+    "s5": [
+        ["Microeconomía II","MICRO-II","10","10","PC",["MICRO-I"],"I"],
+        ["Matemáticas para la Economía","MATPARECO","10","10","ECONOM",["MAT-IV"],"I"],
+        ["Estadística II","EST-II","10","10","PC",["EST-I"],"I"],
+        ["Gestión de Personas I","GESTPER-I","10","10","ADMIN",["PYO"],"I"],
+        ["Finanzas I","FIN-I","10","10","PC",["MAT-II"],"I"],
+        ["Habilidades de Apredizaje IV","HAB-IV","3","3","PC",[],"I"],
+        ["Inglés IV","ING-IV","10","10","PC",["ING-III"],"I"]
+    ],
+    "s6": [
+        ["Microeconomía III","MICRO-III","10","10","ECONOM",["MICRO-II","MATPARECO"],"P"],
+        ["Macroeconomía II","MACRO-II","10","10","PC",["MACRO-I","MAT-III"],"P"],
+        ["Econometría","ECON","10","10","ECONOM",["EST-II","MAT-III"],"P"],
+        ["Finanzas Públicas","FINPUB","10","10","ECONOM",["MICRO-I"],"P"],
+        ["Habilidades Profesionales I","HABPROF-I","3","3","PC",["HAB-IV"],"P"],
+        ["Habilidades Profesionales II","HABPROF-II","1",2,"PC",["HAB-IV"],"P"],
+        ["Contabilidad para la Gestión","CONPARGE","10","10","ADMIN",["CON-II"],"P"],
+        ["Econometría para la Gestión","ECONPARGE","10","10","ADMIN",["MAT-III","EST-II"],"P"],
+        ["Marketing II","MARK-II","10","10","ADMIN",["MARK-I"],"P"]
+    ],
+    "s7": [
+        ["Organización Industrial","ORGAIN","10","10","PC",["MICRO-II"],"I"],
+        ["Macroeconomía III","MACRO-III","10","10","ECONOM",["MACRO-I"],"I"],
+        ["Micro-Econometría","MIC-ECON","10","10","ECONOM",["ECON"],"I"],
+        ["Finanzas II","FIN-II","10","10","PC",["FIN-I"],"I"],
+        ["Habilidades Profesionales III","HABPROF-III","3","3","PC",["HAB-IV"],"I"],
+        ["Formación Complementaria I","OFC-I","10",10,"OFC",[],""],
+        ["Gestión de la innovación","GESTIN","10",10,"ADMIN",["PYO"],""],
+        ["Gestión de Personas II","GESTPER-II","10",10,"ADMIN",["GESTPER-I"],""]
+    ],
+    "s8": [
+        ["Teoría de Juegos","TEODJ","10",10,"ECONOM",["MICRO-II"],""],
+        ["Economía Internacional","ECONO-INT","10",10,"ECONOM",["MACRO-II"],""],
+        ["Macro-Econometría","MAC-ECON","10",10,"ECONOM",["ECON"],""],
+        ["Evaluación de Proyectos","EVALDPR","10","10","PC",["PB","FIN-II"],""],
+        ["Formación Complementaria II","OFC-II","10","10","OFC",[],""],
+        ["Gestión de Personas III","GESTPER-III","10","10","ADMIN",["GESTPER-II"],""],
+        ["Gestión de Operaciones","GESTOP","10","10","ADMIN",["EST-II"],""],
+        ["Estrategia","EST","10","10","ADMIN",["MARK-I"],""]
+    ],
+    "s9": [
+        ["Práctica Profesional","PP","18",18,"PP",["PB","EVALDPR"],""],
+        ["Regulación y Competencia","REYCO","12",12,"ECONOM",["ORGAIN","TEODJ"],""],
+        ["Política Económica","POLECON","12",12,"ECONOM",["MACRO-II"],""],
+        ["Ética en los Negocios y la Economía","ETICNYE","5","3","PC",["ETICG"],""],
+        ["Habilidades Profesionales IV","HABROF-V","3","3","PC",["HAB-IV"],""],
+        ["Formación Complementaria III","OFC-III","10",10,"OFC",[],""],
+        ["Emprendimiento","EMP","12","12","ADMIN",["GESTIN"],""],
+        ["Consultoría","COSULT","12",12,"ADMIN",["GESTPER-II"],""],
+        ["Juego de Negocios","JUEGDNEG","12",12,"ADMIN",["EST"],""]
+    ],
+    "s10": [
+        ["Taller de Titulación","TATITUT","20",20,"PC",[],""],
+        ["Habilidades Profesionales V","HABPROF-V","3",3,"PC",["HAB-IV"],""],
+        ["Formación Complementaria IV","OFC-IV","10",10,"OFC",[],""],
+        ["Formación Complementaria V","OFC-V","10",10,"OFC",[],""]
+    ]
+},
+ "categories": {
+    "PC":["#7a4100","Plan Común"],
+    "PB":["#de4c1b","Práctica Básica"],
+    "ECONOM":["#57004d","Mención Economía"],
+    "ADMIN":["#003da5","Mención Administración"],
+    "OFC":["#007502","Optativo"],
+    "PP":["#24ffbd","Práctica Profesional"]
+}
+}

@@ -1,0 +1,8 @@
+{
+    "PC": ["#7a4100", "Plan Común"],
+    "PB": ["#de4c1b", "Práctica Básica"],
+    "ECONOM": ["#57004d", "Mención Economía"],
+    "ADMIN": ["#003da5", "Mención Administración"],
+    "OFC": ["#007502", "Optativo"],
+    "PP": ["#24ffbd", "Práctica Profesional"]
+}
